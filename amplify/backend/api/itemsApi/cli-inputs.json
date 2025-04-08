@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "amplifytodoapp2db328bd",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

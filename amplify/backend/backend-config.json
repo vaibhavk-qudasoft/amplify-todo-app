@@ -1,1 +1,43 @@
-{}
+{
+  "api": {
+    "itemsApi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amplifytodoapp2db328bd"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "amplifytodoapp2db328bd": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_amplifytodoapp2db328bd_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifytodoapp2db328bd"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifytodoapp2db328bd_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifytodoapp2db328bd"
+        }
+      ]
+    }
+  }
+}
