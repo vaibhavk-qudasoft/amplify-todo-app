@@ -8,7 +8,7 @@ function App() {
           try {
               const restOperation = get({
                   apiName: "itemsApi",
-                  path: "/items",
+                  path: "/",
               });
               const response = await restOperation.response;
               console.log("GET call succeeded: ", response);
