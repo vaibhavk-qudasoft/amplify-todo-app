@@ -16,10 +16,16 @@
         "amplifytodoapp2db328bd": {
           "deploymentBucketName": "amplify-amplifytodoapp-dev-6d08a-deployment",
           "s3Key": "amplify-builds/amplifytodoapp2db328bd-7941337855544c4d7757-build.zip"
+        },
+        "amplifytodoapp8258390c": {
+          "deploymentBucketName": "amplify-amplifytodoapp-dev-6d08a-deployment",
+          "s3Key": "amplify-builds/amplifytodoapp8258390c-796c506c382b3153546c-build.zip"
         }
       },
       "api": {
-        "itemsApi": {}
+        "itemsApi": {},
+        "api3247160a": {},
+        "apif46cadde": {}
       }
     }
   }

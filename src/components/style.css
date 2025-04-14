@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+  }
+  
+  .column {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+  }
+  
+  .value {
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.4;
+  }
+  
+  .category {
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.4;
+  }
+  .temp{
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
